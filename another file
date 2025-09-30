@@ -1,0 +1,7 @@
+# Data loading and cleaning
+source("R/eval_model.R")
+
+# read daily fluxes
+daily_fluxes <- readr::read_csv(
+  "./data/FLX_CH-Dav_FLUXNET2015_FULLSET_DD_1997-2014_1-3.csv"
+)
